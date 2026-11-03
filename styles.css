@@ -124,3 +124,38 @@ main h2 {
 .supplies li {
     margin-bottom: 8px;
 }
+
+.exercise-image {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 8px;    
+}
+
+.exercise {
+    margin-top: 35px;
+}
+
+.exercise h3 {
+    color:#244733;
+}
+
+.closing {
+    background-color:#E8E8D7;
+    padding: 25px;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    nav a {
+        margin:0;
+    }
+}
