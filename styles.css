@@ -159,3 +159,41 @@ main h2 {
         margin:0;
     }
 }
+
+nav summary {
+    color: #FAF7EF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 550px;
+    margin: 10px auto 0;   
+}
+
+.dropdown-links a {
+    display: block;
+    background-color: #365D44;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.reminder {
+    background-color:#E8E8D7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+.reminder h3 {
+    color:#244733;
+}
+
+.reminder p {
+    color:#303830;
+    line-height: 1.6;
+}
