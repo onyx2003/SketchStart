@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lines & Shapes | SketchStart</title>
+    <title>Conatact & Feedback | SketchStart</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -29,8 +29,37 @@
         </header>
 
     <main>
-        <h2>Lines and Shapes</h2>
-        <p>Learn about the building blocks of drawing.</p>
+        <h2>Contact and Feedback</h2>
+        <p>Have a question, suggestion, or feedback about SketchStart? 
+            We'd love to hear from you! Use the form below to share 
+            your thoughts or help us  make SketchStart even better!</p>
+
+    <form class="contact-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject" required>
+            <option value="">Choose a Subject</option>
+            <option value="question">General Question</option>
+            <option value="feedback">Website Feedback</option>
+            <option value="suggestion">Resource Suggestion</option>
+            <option value="other">other</option>
+        </select>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message"
+            rows="6" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+    
+    <img src="images/contact-art.png"
+    alt="illustration of a peice of paper, pencil and eraser on a desk"
+    class="contact-illustration">
     </main>
 </body>
 </html>
