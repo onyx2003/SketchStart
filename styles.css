@@ -369,3 +369,27 @@ nav summary {
 .resources-heading {
     color: #244735;
 }
+
+.about-heading {
+    color: #244735;
+}
+
+.about-sketchbook {
+    max-width: 700px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.about-sketchbook img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-sketchbook figcaption {
+    margin-top: 10px;
+    color: #365f49;
+    font-style: italic;
+    font-size: 0.9rem;
+}
