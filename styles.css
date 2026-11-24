@@ -393,3 +393,88 @@ nav summary {
     font-style: italic;
     font-size: 0.9rem;
 }
+
+.lesson-heading {
+    color: #244735;
+    margin-top: 30px;
+}
+
+.shading-example {
+    max-width: 500px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.shading-example img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.shading-example figcaption {
+    margin-top: 10px;
+    color: #365f49;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.color-example {
+    max-width: 500px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.color-example img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.color-example figcaption {
+    margin-top: 10px;
+    color: #365f49;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.anatomy-example {
+    max-width: 500px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.anatomy-example img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.anatomy-example figcaption {
+    margin-top: 10px;
+    color: #365f49;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.practice-example {
+    max-width: 500px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.practice-example img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.practice-example figcaption {
+    margin-top: 10px;
+    color: #365f49;
+    font-size: 0.9rem;
+    font-style: italic;
+}
